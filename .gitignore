@@ -1,1 +1,47 @@
-.idea/*
+# ==== Maven / build ====
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+
+# ==== Archivos compilados / empaquetados ====
+*.class
+*.jar
+*.war
+*.ear
+# Excepción: el wrapper de Maven sí debe versionarse si algún día lo usas
+!.mvn/wrapper/maven-wrapper.jar
+
+# ==== IntelliJ IDEA ====
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ==== Eclipse ====
+.settings/
+.classpath
+.project
+.factorypath
+bin/
+
+# ==== VS Code ====
+.vscode/
+
+# ==== NetBeans ====
+nbproject/
+nb-configuration.xml
+nbactions.xml
+
+# ==== Sistema operativo ====
+.DS_Store
+Thumbs.db
+*~
+
+# ==== Logs y volcados de la JVM ====
+*.log
+hs_err_pid*
+replay_pid*
